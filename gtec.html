@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gtec Institute</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <style>
+ 
+.container1 {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 10fr 10fr 1fr;
+ column-gap: 200px;
+}
+
+img {
+  align-items: center;
+  max-width: 150%;
+  max-height:100%;
+}
+
+.text {
+    text-align: center;
+  font-size: 25px;
+}
+/* Navbar container */
+.navbar {
+ 
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Links inside the navbar */
+.navbar a  {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown  {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn  {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content  {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a  {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content  a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ /* Nested dropdown */
+    .subdrop {
+      position: relative;
+    }
+
+    .subdrop-content {
+      display: none;
+      position: absolute;
+      left: 100%;
+      top: 0;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    .subdrop:hover .subdrop-content {
+      display: block;
+    }
+    #add{
+      background-color: greenyellow;
+    }
+
+</style>
+</head>
+<body>
+    <center>
+      <div class="navbar">
+  <a href="gtechome.html">HOME</a>&nbsp;
+    <a href="gtecabout.html">ABOUT</a>&nbsp;
+  
+  <div class="dropdown">
+    <button class="dropbtn">COURSES
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+     
+      <!--<a href="gtecaccounting.html" ><ACCOUNTING-->
+        <div class="subdrop">
+          <a href="gtecaccounting.html">ACCOUNTING</a>
+          <div class="subdrop-content">
+            <a href="difa.html">Diploma in Indian and Foreign Accounting</a>
+            <a href="difa1.html">Professional Diploma in Indian, Foreign and SAP Accounting with FICO</a>
+            <a href="difa2.html">Professional Certification in AI Integrated Accounting</a>
+            <a href="difa3.html">Professional Accounting Analyst and Taxation Expert</a>
+            <a href="difa4.html">Master in Financial Acounting and SAP FICO</a>
+          </div>
+        </div>
+        
+      </a>
+
+   
+
+      <!--<a href="gtecmultimedia.html">MULTIMEDIA</a>-->
+       <div class="subdrop">
+          <a href="gtecmultimedia.html">MULTIMEDIA</a>
+          <div class="subdrop-content">
+            <a href="mult.html">Diploma in Multimedia & Animation</a>
+            <a href="mult1.html">Diploma in Video Editing</a>
+            <a href="mult2.html">Diploma in Graphic Designing</a>
+            
+          </div>
+        </div>
+      <!--<a href="gtechardware.html">HARDWARE</a>-->
+      <div class="subdrop">
+          <a href="gtechardware.html">HARDWARE</a>
+          <div class="subdrop-content">
+            <a href="hard.html">G-Tec Certified CISCO Network Associate</a>
+            <a href="hard1.html">Honors Deploma in Compter Hardware & Networking</a>
+            
+            
+          </div>
+        </div>
+
+      <!--<a href="gtecsoftware.html">SOFTWARE DEVELOPMENT</a>-->
+      <div class="subdrop">
+          <a href="gtecsoftware.html">SOFTWARE DEVELOPMENT</a>
+          <div class="subdrop-content">
+            <a href="soft.html">Certification in Advanced Software Engineering</a>
+            <a href="soft1.html">Diploma in UI/UX Designing</a>
+             <a href="soft2.html">Diploma in Data Analysis</a>
+            <a href="soft3.html">Diploma in Cyber Security</a>
+            
+            
+          </div>
+        </div>
+
+
+      <!--<a href="GTECCAD.HTML">CAD</a>-->
+      <div class="subdrop">
+          <a href="GTECCAD.HTML">CAD</a>
+          <div class="subdrop-content">
+            <a href="#">Diploma in CAD</a>
+            <a href="#"> Master Diploma in CAD</a>
+           
+            
+            
+          </div>
+        </div>
+
+    </div>
+  </div>&nbsp;
+  <a href="gtecgallery.html">GALLERY</a>&nbsp;
+  <a href="gteccontact.html">CONTACT US</a>&nbsp;
+
+  <a href="gtec.html">FOR MORE</a>&nbsp;
+
+
+</div>
+    <br>
+    <img src="logo.avif" alt="Gtec logo">
+    
+    <h1  align="center"><b>G-TEC ADIMALY</b></h1>
+        <h4 align="center">Near ABC Public School ,Adimali<br> Ph:9876543210<br>Email:adimaligtec@gmail.com  </h5>
+           
+            <br><br>
+            
+            <div class="container">
+             <img src="gtecimage.avif" alt="Gtec Institute" style:"100px" width="2000" height="800"><br>
+             <a href="gteccourses.html"><b><big>Admission and Course Enquiry</big></b></a>
+             
+  
+            </div><br><br>
+
+            
+            <h1>ABOUT G<i>TEC</i> COMPUTER EDUCATION ADIMALI</h1>
+            <div class="container1">
+      <div class="image">
+        <img src="gt12.jpeg">
+      </div>
+      <div class="text">
+        <p>Ever since 2001, G-TEC Computer Education has been providing students with a rich and diverse learning environment. Our unparalleled teaching methods help to launch students into the successful future they have always dreamed of. We always encourage both staff and students to grow, learn and create each passing day.</p>
+        <a href="gteccourses.html">Courses</a>
+      </div>
+    </div><br><br><br>
+
+    <div class="cont">
+
+    <img src="gt13.avif" alt="Gtec" width="1500" height="1000">
+    </div>
+    <br><br>
+    <h1 align="center">LEARN SOFTWARE DEVELOPMENT WITH US <BR>
+   AND BECOME A PRO!!!</h1>
+    <video width="1200" height="700"  controls>
+  <source src="vd2.mp4.mp4" ><br>
+
+  
+
+</video>
+  <h1 align="center">KNOW ALL ABOUT HARDWARE AND NETWORKING<br> FROM OUR EXPERTS!!!</h1>
+  <video src="vd3.mp4" width="1200" height="700 " controls>Hardware</video><br>
+
+    <h1 align="center">DEVELOP YOUR ANIMATION SKILLS<br> AND BE A PRO!!!</h1>
+  <video src="anim.mp4.mov" width="1200" height="700 "  controls>ANIMATION</video><br>
+  <h5 id="add">G-Tec Computer Education, Near Private Bus Stand, Adimali<br>
+  Ph: 0486 2345678, Mob:986743261<br>
+Mail: adimaligtec@gmail.com</h5>
+  
+
+    
+
+
+    </center>
+
+            
+    
+</body>
+</html>
